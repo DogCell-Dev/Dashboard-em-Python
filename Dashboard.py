@@ -19,7 +19,7 @@ st.markdown("**Análise dos Leads do Processo Seletivo**")
 
 # ------------------ LEITURA ------------------
 # Etapa que os Dados da planilha são carregados
-planilha = "dados.xlsx"
+planilha = "Dados.xlsx"
 
 df = pd.read_excel( # df = DataFrame 
     planilha,
